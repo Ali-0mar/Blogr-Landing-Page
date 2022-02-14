@@ -1,0 +1,10 @@
+header {
+        background-image: url("../../Assets/bg-pattern-intro-desktop.svg"),
+                linear-gradient(to right, var(--Very-light-red-grad), var(--Light-red-grad));
+        border-radius: 0 0 0 125px;
+}
+
+.dropdown-item.fw-bold.text-reset:focus,
+.dropdown-item.fw-bold.text-reset:hover {
+        background-color: transparent;
+}

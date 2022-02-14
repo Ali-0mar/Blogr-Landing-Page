@@ -1,0 +1,88 @@
+* {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+}
+
+body,
+html {
+        height: 100%;
+}
+#root {
+        height: inherit;
+}
+
+body {
+        font-family: "Outfit", sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 1.6rem;
+        overflow-x: hidden;
+}
+/*Colors*/
+:root {
+        /* Primary */
+        --Light-red: hsl(356, 100%, 66%);
+        --Very-light-red: hsl(355, 100%, 74%);
+        --Very-dark-blue: hsl(208, 49%, 24%);
+
+        /* Neutral */
+        --White: hsl(0, 0%, 100%);
+        --Grayish-blue: hsl(240, 2%, 79%);
+        --Very-dark-grayish-blue: hsl(207, 13%, 34%);
+        --Very-dark-black-blue: hsl(240, 10%, 16%);
+
+        /* Gradient */
+        /* Background gradient - Intro/CTA mobile nav: */
+
+        --Very-light-red-grad: hsl(13, 100%, 72%);
+        --Light-red-grad: hsl(353, 100%, 62%);
+
+        /* Background gradient - body: */
+        --Very-dark-gray-blue: hsl(237, 17%, 21%);
+        --Very-dark-desaturated-blue: hsl(237, 23%, 32%);
+}
+
+.light-btns {
+        border-radius: 25px;
+        border: none;
+        padding: 5px 20px;
+        background: var(--White);
+        text-align: center;
+        color: var(--Light-red);
+        font-size: 15px;
+        font-weight: 700;
+        /* margin: 1rem auto; */
+}
+.light-btns:hover,
+.light-btns:focus {
+        background: #fc977cb5;
+        color: var(--White);
+}
+.btns {
+        border-radius: 25px;
+        color: var(--White);
+        border: 1px solid var(--White);
+        padding: 5px 20px;
+        background: transparent;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 700;
+}
+.btns:hover,
+.btns:focus {
+        background: var(--White);
+        color: red;
+}
+a {
+        text-decoration: none;
+}
+
+.btns li {
+        border: none;
+}
+.navbar-nav > .btns > .dropdown-item:focus,
+.navbar-nav.btns.dropdown-item:hover {
+        background-color: inherit;
+        color: var(--White);
+}
