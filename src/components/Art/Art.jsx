@@ -2,7 +2,7 @@ import "./art.styles.css";
 import mobiles from "../../Assets/illustration-phones.svg";
 export const Art = () => {
         return (
-                <div className="Art pb-5">
+                <div className="Art pb-lg-5">
                         <section className="row">
                                 <div className="col-lg-6 mobiles">
                                         <img src={mobiles} />

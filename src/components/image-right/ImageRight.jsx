@@ -14,7 +14,7 @@ export const ImageRight = () => {
                                         <img src={hero} />
                                         {/* </picture> */}
                                 </div>
-                                <aside className="col-lg-6 mx-5 mx-lg-0 text-center text-lg-start">
+                                <aside className="col-lg-6  text-center text-lg-start">
                                         <article className="pt-5 fs-6 mt-3  lh-sm px-5">
                                                 <h3 className="fs-4">Introducing an extensible editor</h3>
                                                 <p className="text-muted mt-3">

@@ -2,6 +2,7 @@ import { Art } from "../../components/Art/Art";
 import { Header } from "../../components/header/Header";
 import { ImageRight } from "../../components/image-right/ImageRight";
 import { Laptop } from "../../components/laptop/laptop";
+import { Footer } from "../../components/Footer/footer";
 
 import "./home.styles.css";
 export const HomePage = () => {
@@ -13,6 +14,7 @@ export const HomePage = () => {
                         <ImageRight />
                         <Art />
                         <Laptop />
+                        <Footer />
                 </div>
         );
 };
