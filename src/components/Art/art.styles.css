@@ -1,0 +1,59 @@
+.Art .row {
+        background-color: var(--Very-dark-blue);
+        margin-top: 12rem;
+        margin-bottom: 10rem;
+        /* padding-bottom: 100px; */
+        background-image: url("../../Assets/bg-pattern-circles.svg");
+        background-size: cover;
+        background-position-y: -35vh;
+        background-position-x: center;
+        background-repeat: no-repeat;
+        border-radius: 0 125px 0 125px;
+        /* height: 16rem; */
+}
+.infrastrucure {
+        transform: translateY(-25vh);
+}
+
+.Art img {
+        max-width: 80%;
+        transform: translateY(Calc(-25vh + 2%)) translateX(Calc(5vw + 6%));
+}
+
+@media (min-width: 768px) {
+        .Art {
+                margin-top: 20rem;
+        }
+        .Art img {
+                transform: translateY(Calc(-41vh + -3%)) translateX(Calc(8vw + 6%));
+        }
+}
+
+@media (min-width: 992px) {
+        .Art {
+                margin-top: 10rem;
+        }
+        .Art .row {
+                background-size: cover;
+                background-position-x: -29vw;
+                background-position-y: -112vh;
+        }
+        .infrastrucure {
+                transform: none;
+        }
+        .Art img {
+                max-width: 100%;
+                transform: translateY(Calc(-9vh + -1%));
+        }
+        .mobiles {
+                max-height: 22rem;
+        }
+}
+@media (min-width: 1175px) {
+        .mobiles {
+                max-height: 24rem;
+        }
+        .Art img {
+                transform: translateY(Calc(-9vh + 2%));
+        }
+}
