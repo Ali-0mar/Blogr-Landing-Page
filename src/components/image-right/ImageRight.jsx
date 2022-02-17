@@ -11,7 +11,7 @@ export const ImageRight = () => {
                                 <div className="col-lg-6 d-flex d-lg-block img-cont justify-content-center">
                                         {/* <picture> */}
                                         {/* <source media="(min-width: 992px)" srcset={hero} /> */}
-                                        <img src={hero} />
+                                        <img src={hero} alt="" />
                                         {/* </picture> */}
                                 </div>
                                 <aside className="col-lg-6  text-center text-lg-start">

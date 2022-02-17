@@ -5,7 +5,7 @@ export const Art = () => {
                 <div className="Art pb-lg-5">
                         <section className="row">
                                 <div className="col-lg-6 mobiles">
-                                        <img src={mobiles} />
+                                        <img src={mobiles} alt="" />
                                 </div>
                                 <div className="align-self-lg-center col-lg-6 infrastrucure me-auto text-center text-light">
                                         <h3>State of the Art Infrastructure</h3>
