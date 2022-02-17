@@ -1,4 +1,3 @@
-import { Last } from "react-bootstrap/esm/PageItem";
 import { Link } from "react-router-dom";
 import "./footer.styles.css";
 export const Footer = () => {
