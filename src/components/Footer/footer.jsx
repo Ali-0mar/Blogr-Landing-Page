@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import "./footer.styles.css";
 export const Footer = () => {
         return (
-                <footer className="row pt-md-5 align-content-md-stretch text-center text-md-start">
-                        <h1 className="col-md-3 text-center">Blogr</h1>
+                <footer className="row py-5 align-content-md-stretch text-center text-md-start">
+                        <h1 className="col-md-3 text-center mb-4 mb-md-0">Blogr</h1>
                         <ul className="col-md-3 list-unstyled mt-3">
                                 <h5 className="mb-3">Product</h5>
                                 <li className="my-2">
